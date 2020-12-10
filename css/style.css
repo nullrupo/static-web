@@ -10,7 +10,7 @@
 header {
     padding: 5px;
     text-align: center;
-    background: #1abc9c;
+    background: #d81c1c;
     color: white;
     height: 120px;
 }
@@ -99,3 +99,33 @@ li.dropdown {
 .hideable-section:first-of-type {
     display: block;
 }
+
+td:hover{
+    background-color : red;
+    opacity: 0.8;
+}
+tr.odd{
+    background-color : rgb(179, 117, 72, .4);
+    color : hotpink;
+    border: 1px yellow;
+    padding: 5px;
+}
+tr.even{
+    background-color : rgba(51, 170, 51, .4);
+    color : cyan;
+} 
+
+img {
+    width: 50%;
+    height: 50%;
+}
+
+.blink_me {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
